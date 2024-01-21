@@ -1,5 +1,3 @@
-# cmakelist
-
 # CMakeList
 
 1. include_directories(include)

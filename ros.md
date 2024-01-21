@@ -129,7 +129,3 @@ in cpp files, the node was named as mytfbroadcaster, but the middle part of the 
 /turtle1 is command parameter, to tell the cpp, that we want the node to subscribe which topic
 
 ![](/assets/images/image-20240111132517796-715x136.png)
-
-# ros
-
-Hello world!
