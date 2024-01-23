@@ -22,11 +22,11 @@
 
 ## Integrated positioning
 
+### IMU
+
 ### GPS
 
 ### GNSS/RTK
-
-### IMU
 
 ## OpenCV/Eigen/G2O/Ceres
 
