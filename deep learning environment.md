@@ -1,6 +1,6 @@
 # deep learning environment
 
-1. pytorch in virtual environment of conda
+## pytorch in virtual environment of conda
 
   在Linux上使用conda虚拟环境安装PyTorch，可以按照以下步骤进行：
 
@@ -47,3 +47,7 @@ python
 2. 如果没有报错，并且成功打印出PyTorch的版本号，说明安装成功。
 
 这样，你就在你的conda虚拟环境中成功安装了PyTorch。
+
+## miniconda
+
+<https://zhuanlan.zhihu.com/p/541309324>
