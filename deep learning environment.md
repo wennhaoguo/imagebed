@@ -14,7 +14,7 @@ conda activate your_env_name
 
 安装PyTorch。在激活的环境下，运行以下命令安装适合你系统和硬件的PyTorch版本。你可以在PyTorch官方网站上找到正确的安装命令：<https://pytorch.org/get-started/locally/>
 
-例如，对于CUDA 11.1的Linux系统，可以运行：
+例如，对于CUDA 11.1(nvidia-smi to see the cuda version)的Linux系统，可以运行：
 
 ```
 bash
