@@ -64,4 +64,18 @@
 
     2. `git branch -D name` (force)
 
+11. 要给 Git 分支重命名，可以使用以下步骤：
+
+    1. **切换到其他分支：** 在重命名分支之前，确保你当前不在需要重命名的分支上。
+
+       bashCopy code
+
+       `git checkout 其他分支`
+
+    2. **重命名分支：** 使用 `-m` 选项来重命名分支。假设你要将 `old-branch` 重命名为 `new-branch`：
+
+       `git branch -m old-branch new-branch`
+
+       这个命令将 `old-branch` 重命名为 `new-branch`。
+
 请确保 `<远程仓库URL>` 是指向你想要推送的远程仓库的正确 URL。这样，你就能够在不克隆整个仓库的情况下创建一个新分支并将代码推送到远程仓库。
