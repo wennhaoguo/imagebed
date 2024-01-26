@@ -20,7 +20,7 @@
 
    2. 可以用`git remote -v`查看版本
 
-   3. 删除本地git remote remove origin
+   3. 删除本地Git 配置中删除了对远程仓库的引用`git remote remove 本地名`
 
 3. **创建并切换到新分支：**
 
