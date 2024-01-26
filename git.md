@@ -78,4 +78,22 @@
 
        这个命令将 `old-branch` 重命名为 `new-branch`。
 
+12. `Detached HEAD` 
+
+    1. 是指在 Git 中，当前所在的工作目录处于一个没有分支引用的状态。换句话说，HEAD（指向当前所在分支或特定提交的引用）指向的是一个具体的提交（commit），而不是一个分支。
+
+       这种状态通常发生在以下几种情况下：
+
+       1. **切换到特定的提交：** 当你使用 `git checkout` 或 `git switch` 命令并提供一个提交的哈希值时，HEAD 将进入 `Detached HEAD` 状态。
+
+          bashCopy code
+
+          `git checkout <commit-hash>`
+
+       2. **切换到标签（tag）：** 如果你使用 `git checkout` 切换到了一个标签，也会导致 `Detached HEAD` 状态。
+
+          bashCopy code
+
+          `git checkout <tag-name>`
+
 请确保 `<远程仓库URL>` 是指向你想要推送的远程仓库的正确 URL。这样，你就能够在不克隆整个仓库的情况下创建一个新分支并将代码推送到远程仓库。
