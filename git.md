@@ -58,6 +58,10 @@
 
     2. 创建一个新的分支，指向该哈希值git checkout -b recover hash_value
 
-10. 
+10. 删除分支 
+
+    1. `git branch -d name` (safely)
+
+    2. `git branch -D name` (force)
 
 请确保 `<远程仓库URL>` 是指向你想要推送的远程仓库的正确 URL。这样，你就能够在不克隆整个仓库的情况下创建一个新分支并将代码推送到远程仓库。
