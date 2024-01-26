@@ -48,15 +48,15 @@
 
     这样，你的新分支及其代码就被推送到远程仓库中了。
 
- 7. git branch 查看本地分支
+ 7. `git branch` 查看本地分支
 
- 8. git reflog 查看本地的操作
+ 8. `git reflog` 查看本地的操作
 
  9. 删除分支之前最好commit，这样可以恢复
 
-    1. git reflog查看哈希值
+    1. `git reflog`查看哈希值
 
-    2. 创建一个新的分支，指向该哈希值git checkout -b recover hash_value
+    2. 创建一个新的分支，指向该哈希值`git checkout -b recover hash_value`
 
 10. 删除分支 
 
