@@ -1,3 +1,3 @@
-# Nerf and Slam
+# NeRF and Slam
 
-Hello world!
+## Principle of NeRF
